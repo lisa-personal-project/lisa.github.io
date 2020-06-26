@@ -16,9 +16,10 @@ const CardAgile = props => {
     const handleChangeCardOne = () => {
         console.log(cardOne);
         setCardOne(!cardOne);
+        props.f();
     };
     return (
-        <Card style={{ maxWidth: 345, maxHeight: 345 }}>
+        <Card style={!cardOne?{ maxWidth: 345, minHeight: 345 }:{ minWidth: 345,width:"70vw", minHeight: 345 }}>
             <CardActionArea>
                 <CardMedia
                     style={{ height: 145 }}
@@ -29,57 +30,14 @@ const CardAgile = props => {
                     <Typography gutterBottom variant="h5" component="h2">
                     Les missions du developpeur/euse
 </Typography>
-                    {!props.cardOne ? <Typography variant="body2" color="textSecondary" component="p">
-                        The twelve rules at the begining of all agile managment methode
+                    {!cardOne ? <Typography variant="body2" color="textSecondary" component="p"> 
+                    Les missions principales d’un développeur web consistent à réaliser une analyse des besoins du client...
 </Typography> :
 
                         <Typography variant="body2" color="textSecondary" component="p">
-                            Nous suivons ces principes:
-                            Notre plus haute priorité est de satisfaire le client
-                            en livrant rapidement et régulièrement des fonctionnalités
-                            à grande valeur ajoutée.
+                           Les missions principales d’un développeur web consistent à réaliser une analyse des besoins du client, afin de concevoir la conception du site internet. Ensuite, pour mener à bien sa mission, il doit aussi créer l’architecture technique du site, par le biais de logiciels et outils nécessaires à la création d’un site web, grâce au langage informatique appris (PHP, SQL, Java Script…). 
+Enfin, la dernière étape consiste à mettre en place des tests de vérification, afin de s’assurer du bon fonctionnement des différentes fonctionnalités mises en place. Le projet doit ensuite être approuvé par le client, qui peut demander à ce que des améliorations soient éventuellement apportées au site, au fur et à mesure de son utilisation.
 
-                            Accueillez positivement les changements de besoins,
-                            même tard dans le projet. Les processus Agiles
-                            exploitent le changement pour donner un avantage
-                            compétitif au client.
-
-                            Livrez fréquemment un logiciel opérationnel avec des
-                            cycles de quelques semaines à quelques mois et une
-                            préférence pour les plus courts.
-
-                            Les utilisateurs ou leurs représentants et les
-                            développeurs doivent travailler ensemble quotidiennement
-                            tout au long du projet.
-
-                            Réalisez les projets avec des personnes motivées.
-                            Fournissez-leur l’environnement et le soutien dont ils
-                            ont besoin et faites-leur confiance pour atteindre les
-                            objectifs fixés.
-
-                            La méthode la plus simple et la plus efficace pour
-                            transmettre de l’information à l'équipe de développement
-                            et à l’intérieur de celle-ci est le dialogue en face à face.
-
-                            Un logiciel opérationnel est la principale mesure d’avancement.
-
-                            Les processus Agiles encouragent un rythme de développement
-                            soutenable. Ensemble, les commanditaires, les développeurs
-                            et les utilisateurs devraient être capables de maintenir
-                            indéfiniment un rythme constant.
-
-                            Une attention continue à l'excellence technique et
-                            à une bonne conception renforce l’Agilité.
-
-                            La simplicité – c’est-à-dire l’art de minimiser la
-                            quantité de travail inutile – est essentielle.
-
-                            Les meilleures architectures, spécifications et
-                            conceptions émergent d'équipes autoorganisées.
-
-                            À intervalles réguliers, l'équipe réfléchit aux moyens
-                            de devenir plus efficace, puis règle et modifie son
-                            comportement en conséquence.
 
 
 </Typography>}
@@ -88,7 +46,8 @@ const CardAgile = props => {
             <CardActions>
 
                 <Button size="small" color="primary" onClick={() => handleChangeCardOne()}>
-                    Learn More
+                    
+                {!cardOne?"Learn More":"See Less"}
 </Button>
             </CardActions>
         </Card>

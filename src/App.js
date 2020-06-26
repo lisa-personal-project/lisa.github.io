@@ -21,6 +21,26 @@ function App() {
     console.log(checked);
     setChecked(!checked);
   };
+  const [learnMore1, setLearnMore1] = React.useState(false);
+  const handleChangeLearnMore1 = () => {
+    console.log(learnMore1);
+    setLearnMore1(!learnMore1);
+  };
+  const [learnMore2, setLearnMore2] = React.useState(false);
+  const handleChangeLearnMore2 = () => {
+    console.log(learnMore2);
+    setLearnMore2(!learnMore2);
+  };
+  const [learnMore3, setLearnMore3] = React.useState(false);
+  const handleChangeLearnMore3 = () => {
+    console.log(learnMore3);
+    setLearnMore3(!learnMore3);
+  };
+  const [learnMore4, setLearnMore4] = React.useState(false);
+  const handleChangeLearnMore4 = () => {
+    console.log(learnMore4);
+    setLearnMore4(!learnMore4);
+  };
   
   return (
     <div className="App">{!checked ?
@@ -69,13 +89,13 @@ function App() {
     alignItems: "center",
     alignContent: "stretch"}}>
 
-         <CardOne />
+         {((!learnMore4&&!learnMore2&&!learnMore3)||(learnMore1))&&<CardOne f={handleChangeLearnMore1}/>}
          
-         <CardTwo />
+         {((!learnMore4&&!learnMore1&&!learnMore3)||(learnMore2))&&<CardTwo f={handleChangeLearnMore2}/>}
          
-         <CardThree />
+         {((!learnMore4&&!learnMore2&&!learnMore1)||(learnMore3))&&<CardThree f={handleChangeLearnMore3}/>}
          
-         <CardFour />
+        {((!learnMore1&&!learnMore2&&!learnMore3)||(learnMore4))&& <CardFour f={handleChangeLearnMore4}/>}
           </div>
         </div>
 
