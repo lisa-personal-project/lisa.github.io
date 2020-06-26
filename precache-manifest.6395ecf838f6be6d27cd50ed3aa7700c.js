@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "38dacb854294cfa144c59f8fbbfb1924",
+    "revision": "cff3763502c53512ecc5b78216eef24b",
     "url": "/lisa.github.io/index.html"
   },
   {
-    "revision": "d13d3b2c848639fc11b0",
+    "revision": "dab9226c78aa783458f1",
     "url": "/lisa.github.io/static/css/main.63893b93.chunk.css"
   },
   {
-    "revision": "1e2fd90c9838ba637bd0",
-    "url": "/lisa.github.io/static/js/2.492cd7d7.chunk.js"
+    "revision": "d1ffa81620d92110eff9",
+    "url": "/lisa.github.io/static/js/2.79d9dfa8.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/lisa.github.io/static/js/2.492cd7d7.chunk.js.LICENSE.txt"
+    "url": "/lisa.github.io/static/js/2.79d9dfa8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d13d3b2c848639fc11b0",
-    "url": "/lisa.github.io/static/js/main.00586b1d.chunk.js"
+    "revision": "dab9226c78aa783458f1",
+    "url": "/lisa.github.io/static/js/main.b93545cb.chunk.js"
   },
   {
     "revision": "247b35802951e106e4df",

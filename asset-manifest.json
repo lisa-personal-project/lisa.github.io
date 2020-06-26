@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/lisa.github.io/static/css/main.63893b93.chunk.css",
-    "main.js": "/lisa.github.io/static/js/main.00586b1d.chunk.js",
-    "main.js.map": "/lisa.github.io/static/js/main.00586b1d.chunk.js.map",
+    "main.js": "/lisa.github.io/static/js/main.b93545cb.chunk.js",
+    "main.js.map": "/lisa.github.io/static/js/main.b93545cb.chunk.js.map",
     "runtime-main.js": "/lisa.github.io/static/js/runtime-main.84a7fd97.js",
     "runtime-main.js.map": "/lisa.github.io/static/js/runtime-main.84a7fd97.js.map",
-    "static/js/2.492cd7d7.chunk.js": "/lisa.github.io/static/js/2.492cd7d7.chunk.js",
-    "static/js/2.492cd7d7.chunk.js.map": "/lisa.github.io/static/js/2.492cd7d7.chunk.js.map",
+    "static/js/2.79d9dfa8.chunk.js": "/lisa.github.io/static/js/2.79d9dfa8.chunk.js",
+    "static/js/2.79d9dfa8.chunk.js.map": "/lisa.github.io/static/js/2.79d9dfa8.chunk.js.map",
     "index.html": "/lisa.github.io/index.html",
-    "precache-manifest.35e5668ef1c494844ecbeeed5778b301.js": "/lisa.github.io/precache-manifest.35e5668ef1c494844ecbeeed5778b301.js",
+    "precache-manifest.6395ecf838f6be6d27cd50ed3aa7700c.js": "/lisa.github.io/precache-manifest.6395ecf838f6be6d27cd50ed3aa7700c.js",
     "service-worker.js": "/lisa.github.io/service-worker.js",
     "static/css/main.63893b93.chunk.css.map": "/lisa.github.io/static/css/main.63893b93.chunk.css.map",
-    "static/js/2.492cd7d7.chunk.js.LICENSE.txt": "/lisa.github.io/static/js/2.492cd7d7.chunk.js.LICENSE.txt",
+    "static/js/2.79d9dfa8.chunk.js.LICENSE.txt": "/lisa.github.io/static/js/2.79d9dfa8.chunk.js.LICENSE.txt",
     "static/media/Manifeste-agile.jpg": "/lisa.github.io/static/media/Manifeste-agile.9fd47512.jpg",
     "static/media/dev.jpg": "/lisa.github.io/static/media/dev.f0233cc7.jpg",
     "static/media/diplome.jpg": "/lisa.github.io/static/media/diplome.0d926ed8.jpg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.84a7fd97.js",
-    "static/js/2.492cd7d7.chunk.js",
+    "static/js/2.79d9dfa8.chunk.js",
     "static/css/main.63893b93.chunk.css",
-    "static/js/main.00586b1d.chunk.js"
+    "static/js/main.b93545cb.chunk.js"
   ]
 }
